@@ -531,7 +531,7 @@ class PosenetActivity :
     }
 
     canvas.drawText(
-      "Score: %.2f".format(person.score),
+      "Accuracy Score: %.2f".format(person.score),
       (15.0f * widthRatio),
       (30.0f * heightRatio + bottom),
       paint
