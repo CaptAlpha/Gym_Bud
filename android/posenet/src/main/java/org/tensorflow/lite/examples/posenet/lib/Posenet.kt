@@ -27,6 +27,7 @@ import java.nio.channels.FileChannel
 import kotlin.math.exp
 import org.tensorflow.lite.Interpreter
 import org.tensorflow.lite.gpu.GpuDelegate
+import kotlin.math.abs
 
 enum class BodyPart {
   NOSE,
@@ -47,7 +48,43 @@ enum class BodyPart {
   LEFT_ANKLE,
   RIGHT_ANKLE
 }
+/*
+  val NOSEx =  132
+  val NOSEy = 110
+  val LEFT_EYEx = 135
+  val LEFT_EYEy = 98
+  val RIGHT_EYEx = 120
+  val RIGHT_EYEy = 98
+  val LEFT_EARx = 148
+  val LEFT_EARy = 90
+  val RIGHT_EARx = 111
+  val RIGHT_EARy = 88
+  val LEFT_SHOULDERx = 171
+  val LEFT_SHOULDERy = 123
+  val RIGHT_SHOULDERx = 92
+  val RIGHT_SHOULDERy = 110
+  val LEFT_ELBOWx = 201
+  val LEFT_ELBOWy = 198
+  val RIGHT_ELBOWx = 200
+  val RIGHT_ELBOWy = 198
+  val LEFT_WRISTx = 123
+  val LEFT_WRISTy = 200
+  val RIGHT_WRISTx = 99
+  val RIGHT_WRISTy = 155
+  val LEFT_HIPx = 124
+  val LEFT_HIPy = 187
+  val RIGHT_HIPx = 108
+  val RIGHT_HIPy = 155
+  val LEFT_KNEEx = 62
+  val LEFT_KNEEy = 195
+  val RIGHT_KNEEx = 60
+  val RIGHT_KNEEy = 195
+  val LEFT_ANKLEx =  130
+  val LEFT_ANKLEy = 248
+  val RIGHT_ANKLEx = 123
+  val RIGHT_ANKLEy = 248
 
+*/
 class Position {
   var x: Int = 0
   var y: Int = 0
@@ -267,11 +304,18 @@ class Posenet(
       keypointList[idx].position.x = xCoords[idx]
       keypointList[idx].position.y = yCoords[idx]
       keypointList[idx].score = confidenceScores[idx]
-      totalScore += confidenceScores[idx]
+      totalScore += (xCoords[idx] + yCoords[idx])
+      //print keypointList[idx]
+      println("my man ${keypointList[idx].bodyPart} x: ${keypointList[idx].position.x} and my man y: ${keypointList[idx].position.y}")
+
     }
 
+
     person.keyPoints = keypointList.toList()
-    person.score = totalScore / numKeypoints
+    person.score = ((totalScore/33) - 138.78).toFloat()
+    person.score = abs(person.score)
+    person.score = (100.00 - person.score).toFloat()
+
 
     return person
   }
