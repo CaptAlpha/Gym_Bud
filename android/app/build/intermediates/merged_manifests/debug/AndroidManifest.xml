@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -24,18 +24,30 @@
         android:testOnly="true"
         android:theme="@style/AppTheme.Posenet" >
         <activity
-            android:name="org.tensorflow.lite.examples.posenet.TestActivity"
-            android:exported="true"
-            android:label="@string/tfe_pn_app_name" >
-        </activity>
-        <activity
-            android:name="org.tensorflow.lite.examples.posenet.CameraActivity"
+            android:name="org.tensorflow.lite.examples.posenet.SignInActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.FitnessActivity"
+            android:exported="true" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.TestActivity"
+            android:exported="true"
+            android:label="@string/tfe_pn_app_name" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.CameraActivity"
+            android:exported="true" >
         </activity>
     </application>
 
