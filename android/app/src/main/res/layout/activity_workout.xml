@@ -4,20 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:padding="30dp"
-
+    android:background="#171717"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".WorkoutActivity">
 
     <Button
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="16dp"
         android:id="@+id/pushup"
         android:layout_width="188dp"
-        android:layout_height="111dp"
+        android:layout_height="80dp"
         android:text="Push Up"
+
         android:onClick="passToPushUp"
+        android:textSize="20sp"
+        android:background="@drawable/bg"
+        android:textColor="#F5E6CA"
         android:layout_marginBottom="25dp"
-        android:background="#50000000"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -28,25 +32,29 @@
     <Button
         android:id="@+id/pullup"
         android:layout_width="188dp"
-        android:layout_height="111dp"
+        android:layout_height="80dp"
         android:text="Pull uP"
         android:layout_marginBottom="25dp"
-        android:background="#50000000"
+        android:textSize="20sp"
+        android:background="@drawable/bg"
+        android:textColor="#F5E6CA"
         android:layout_gravity="center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/crunches"
         android:layout_width="188dp"
-        android:layout_height="111dp"
+        android:layout_height="80dp"
         android:text="CRUNCHES"
         android:layout_marginBottom="25dp"
-        android:background="#50000000"
+        android:textSize="20sp"
+        android:background="@drawable/bg"
+        android:textColor="#F5E6CA"
+
         android:layout_gravity="center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,10 +65,12 @@
     <Button
         android:id="@+id/squat"
         android:layout_width="188dp"
-        android:layout_height="111dp"
+        android:layout_height="80dp"
         android:text="SQUAT"
         android:layout_marginBottom="25dp"
-        android:background="#50000000"
+        android:textSize="20sp"
+        android:background="@drawable/bg"
+        android:textColor="#F5E6CA"
         android:layout_gravity="center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,15 +81,23 @@
     <Button
         android:id="@+id/situps"
         android:layout_width="188dp"
-        android:layout_height="111dp"
+        android:layout_height="80dp"
         android:text="SIT-UPS"
-        android:background="#50000000"
+        android:textSize="20sp"
+        android:background="@drawable/bg"
+        android:textColor="#F5E6CA"
         android:layout_gravity="center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:src="@drawable/dumbeeee" />
 
 
 </LinearLayout>
