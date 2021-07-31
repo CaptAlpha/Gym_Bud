@@ -5,7 +5,7 @@ Private Repo For HackX '21
 
 Project Presented by TEAM : WINNOVATR
 
-![markdown logo](./public/Logmo.png "Logo")
+![markdown logo](assets_img/Group.png)
 
 ##  Overview of the Project
 
