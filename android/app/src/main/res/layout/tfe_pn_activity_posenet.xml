@@ -31,12 +31,14 @@
       android:layout_width="match_parent"
       android:layout_height="?attr/actionBarSize"
       android:layout_alignParentTop="true"
+      android:layout_marginTop="4dp"
       android:background="@color/tfe_semi_transparent">
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/tfl2_logo" />
+        android:layout_gravity="right"
+        android:src="@drawable/g" />
   </androidx.appcompat.widget.Toolbar>
 
 </RelativeLayout>

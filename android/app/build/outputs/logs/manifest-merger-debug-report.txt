@@ -183,7 +183,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\HP
 	android:roundIcon
 		ADDED from E:\Gym_Bud\android\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from E:\Gym_Bud\android\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from E:\Gym_Bud\android\app\src\main\AndroidManifest.xml:14:9-35
 	android:allowBackup
 		ADDED from E:\Gym_Bud\android\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme

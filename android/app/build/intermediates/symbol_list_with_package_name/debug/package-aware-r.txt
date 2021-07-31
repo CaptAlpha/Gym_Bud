@@ -1675,6 +1675,7 @@ drawable abc_vector_test
 drawable action
 drawable avd_hide_password
 drawable avd_show_password
+drawable backg
 drawable bells
 drawable bg
 drawable btn_checkbox_checked_mtrl
@@ -1691,6 +1692,10 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dumbeeee
+drawable f
+drawable g
+drawable group
+drawable gym
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher
@@ -1702,6 +1707,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable icn_chevron_down
 drawable icn_chevron_up
+drawable icon
 drawable image
 drawable main
 drawable man
@@ -1739,6 +1745,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pushup
+drawable tanishqqq
 drawable tempmain
 drawable test_custom_background
 drawable tfl2_logo
@@ -1746,6 +1753,7 @@ drawable tfl2_logo_dark
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable woman
+font fonts
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2141,7 +2149,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

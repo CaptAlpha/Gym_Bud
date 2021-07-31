@@ -29,8 +29,8 @@
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.5.0] C:\Users\HP\.gradle\caches\transforms-3\4f6c2dff91c3be765a92ac5a9200cfd3\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->E:\Gym_Bud\android\app\src\main\AndroidManifest.xml:14:9-43
+20        android:icon="@drawable/g"
+20-->E:\Gym_Bud\android\app\src\main\AndroidManifest.xml:14:9-35
 21        android:label="@string/tfe_pn_app_name"
 21-->E:\Gym_Bud\android\app\src\main\AndroidManifest.xml:15:9-48
 22        android:roundIcon="@mipmap/ic_launcher_round"

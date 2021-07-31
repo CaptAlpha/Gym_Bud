@@ -15,13 +15,11 @@
         android:layout_width="188dp"
         android:layout_height="80dp"
         android:text="Push Up"
-
         android:onClick="passToPushUp"
         android:textSize="20sp"
         android:background="@drawable/bg"
         android:textColor="#F5E6CA"
         android:layout_marginBottom="25dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -36,6 +34,7 @@
         android:text="Pull uP"
         android:layout_marginBottom="25dp"
         android:textSize="20sp"
+        android:onClick="passToPushUp"
         android:background="@drawable/bg"
         android:textColor="#F5E6CA"
         android:layout_gravity="center_horizontal"
@@ -49,12 +48,12 @@
         android:id="@+id/crunches"
         android:layout_width="188dp"
         android:layout_height="80dp"
+        android:onClick="passToPushUp"
         android:text="CRUNCHES"
         android:layout_marginBottom="25dp"
         android:textSize="20sp"
         android:background="@drawable/bg"
         android:textColor="#F5E6CA"
-
         android:layout_gravity="center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,6 +67,7 @@
         android:layout_height="80dp"
         android:text="SQUAT"
         android:layout_marginBottom="25dp"
+        android:onClick="passToPushUp"
         android:textSize="20sp"
         android:background="@drawable/bg"
         android:textColor="#F5E6CA"
@@ -83,6 +83,7 @@
         android:layout_width="188dp"
         android:layout_height="80dp"
         android:text="SIT-UPS"
+        android:onClick="passToPushUp"
         android:textSize="20sp"
         android:background="@drawable/bg"
         android:textColor="#F5E6CA"
@@ -97,6 +98,7 @@
         android:layout_marginTop="20dp"
         android:layout_width="350dp"
         android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
         android:src="@drawable/dumbeeee" />
 
 
