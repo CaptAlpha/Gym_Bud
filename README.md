@@ -60,6 +60,8 @@ Deploying the app.
 ![markdown logo](assets_img/gym.png)
 ![markdown logo](assets_img/gymie.png)
 
+### Our Presentation
+[Link to Presentation](Presentation\Gym_Bud.pdf)
 
 ### Our Presentation
  [Link to Presentation](Presentation/Gym_Bud.pdf)
