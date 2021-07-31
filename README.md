@@ -7,6 +7,18 @@ Project Presented by TEAM : WINNOVATR
 
 ![markdown logo](assets_img/Group.png)
 
+# Our Team
+Member | Role
+------------- | -------------
+Tanishq Tyagi   | Team Lead (App Developer)
+Priyanka  |  App Developer
+Arhit  |  ML Developer
+Naman  |  Team Manager
+Parshva |  Designer
+
+
+
+
 ##  Overview of the Project
 
 >An app that will check your body posture while you are doing an exercise and show how accurate the posture is.
@@ -45,8 +57,9 @@ Deploying the app.
   
 
 ##  Our Project:
-
 ![markdown logo](assets_img/gym.png)
 ![markdown logo](assets_img/gymie.png)
 
 
+### Our Presentation
+ [Link to Presentation](Presentation/Gym_Bud.pdf)
