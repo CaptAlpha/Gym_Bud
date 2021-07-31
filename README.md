@@ -45,11 +45,8 @@ Deploying the app.
   
 
 ##  Our Project:
-<<<<<<< HEAD
+
 ![markdown logo](assets_img/gym.png)
 ![markdown logo](assets_img/gymie.png)
 
-=======
-![markdown logo](assets_img\gym.png)
-![markdown logo](assets_img\gymie.png)
->>>>>>> c6b6ca09bb0b83d3e08612d3cf6ada8eb4295897
+
