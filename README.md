@@ -45,3 +45,8 @@ Deploying the app.
   
 
 ##  Our Project:
+![image ](assets_img/start.jpeg)
+![markdown](assets_img/modes.jpeg)
+![markdown](assets_img/features.jpeg)
+![markdown](assets_img/bmi.jpeg)
+![markdown](assets_img/pushup.jpeg)
